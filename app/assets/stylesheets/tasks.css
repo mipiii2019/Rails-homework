@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7dfcfe;
+    background-image: url(https://media.tenor.com/VkGE6OgHhTMAAAAi/maxwell-maxwell-cat.gif);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .tab-pane {
+    padding: 20px;
+    border: 1px solid #193ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .tab-pane h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-group-item {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  .form-control {
+    width: 97%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #44831b;
+    border-radius: 5px;
+    background-color: #fdfb90;
+  }
+  
+  .form-control:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
